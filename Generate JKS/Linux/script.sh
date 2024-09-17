@@ -13,7 +13,7 @@ FILE=./certificate.pem
 if [ -f "$FILE" ]; then
     echo "The download was OK."
 else
-    echo "Have been a problem with the download of certificate."
+    echo "There was a problem with the download of certificate."
     exit 0
 fi
 
